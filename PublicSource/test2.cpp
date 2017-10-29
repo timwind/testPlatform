@@ -3,7 +3,7 @@ using namespace std;
 
 int sub()
 {
-  cout << "this is master platform, version : 20171029220800!" << endl;
+  cout << "this is master platform, version : 20171029223700!" << endl;
 
   return 0;
 }
