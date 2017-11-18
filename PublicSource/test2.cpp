@@ -8,7 +8,7 @@ int sub()
   return 0;
 }
 
-123
+
 int main()
 {
   subMain();

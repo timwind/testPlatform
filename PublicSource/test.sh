@@ -1,6 +1,13 @@
 #!/bin/sh
 
-work_dir=F:/study/01_work/testPlatform/PublicSource
+if [ $# -lt 1 ]
+then
+    work_dir="F:/study/01_work/testProjectA"
+else
+    work_dir=$1
+fi
+
+#echo "${work_dir}"
 
 cd ${work_dir}
 git add .
